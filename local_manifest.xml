@@ -10,9 +10,6 @@
         <project path="kernel/xiaomi/msm8937" name="adi153/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
         <project path="vendor/xiaomi/rova" name="adi153/proprietary_vendor_xiaomi_rova" remote="ping2109" revision="lineage-18.1" />
         <project path="vendor/xiaomi/msm8937-common" name="adi153/proprietary_vendor_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
-        
-        <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ping2109" revision="mi8937-new" />
 
         <!-- Clone Hals -->
         <project path="hardware/qcom-caf/msm8996/media" name="adi153/platform_hardware_qcom-caf_media" groups="qcom,pdk-qcom" remote="ping2109" revision="10" />
