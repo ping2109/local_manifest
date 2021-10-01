@@ -5,8 +5,8 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="pingmado" revision="conquer" />
-        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="pingmado" revision="xdroid" />
+        <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="pingmado" revision="11" />
+        <project path="device/xiaomi/msm8937-common" name="ping2109/android_device_xiaomi_msm8937-common" remote="pingmado" revision="11" />
 
         <!-- Sync vendor trees -->
         <project path="vendor/xiaomi/rova" name="ItoRenz/vendor_xiaomi_rova" remote="pingmado" revision="lineage-18.1" />
