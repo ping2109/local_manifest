@@ -11,9 +11,14 @@
         <project path="vendor/xiaomi/rova" name="adi153/proprietary_vendor_xiaomi_rova" remote="ping2109" revision="lineage-18.1" />
         <project path="vendor/xiaomi/msm8937-common" name="adi153/proprietary_vendor_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
 
+        <!-- Remove Hals -->
+        <remove-project name="crdroidandroid/android_hardware_qcom_media" />
+        <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+        <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+
         <!-- Clone Hals -->
         <project path="hardware/qcom-caf/msm8996/media" name="adi153/platform_hardware_qcom-caf_media" groups="qcom,pdk-qcom" remote="ping2109" revision="10" />
         <project path="hardware/qcom-caf/msm8996/audio" name="adi153/platform_hardware_qcom-caf_audio" groups="qcom,qcom_audio,pdk-qcom" remote="ping2109" revision="10" />
         <project path="hardware/qcom-caf/msm8996/display" name="adi153/platform_hardware_qcom-caf_display" groups="qcom,pdk-qcom,qcom_display" remote="ping2109" revision="10" />
-        
+
 </manifest>
