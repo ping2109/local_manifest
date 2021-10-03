@@ -9,17 +9,7 @@
         <project path="device/xiaomi/msm8937-common" name="ping2109/android_device_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
         <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
         <project path="vendor/xiaomi/rova" name="ping2109/proprietary_vendor_xiaomi_rova" remote="ping2109" revision="lineage-18.1" />
-        <project path="vendor/xiaomi/msm8937-common" name="ping2109/proprietary_vendor_xiaomi_msm8937-common" remote="ping2109" revision="cr-11.0" />
-
-        <!-- Remove Hals -->
-        <remove-project name="crdroidandroid/android_hardware_qcom_media" />
-        <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
-        <remove-project name="crdroidandroid/android_hardware_qcom_display" />
-
-        <!-- Remove Unused Apps -->
-        <remove-project name="crdroidandroid/android_packages_apps_Matlog" />
-        <remove-project name="LineageOS/android_packages_apps_Jelly" />
-        <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+        <project path="vendor/xiaomi/msm8937-common" name="ping2109/proprietary_vendor_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
 
         <!-- Clone Hals -->
         <project path="hardware/qcom-caf/msm8996/media" name="adi153/platform_hardware_qcom-caf_media" groups="qcom,pdk-qcom" remote="ping2109" revision="10" />
