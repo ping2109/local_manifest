@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="ping2109" revision="r" />
        
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="a11" />
+        <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
         
          <!-- Remove r Hals -->
         <remove-project name="android_hardware_qcom_display" />
