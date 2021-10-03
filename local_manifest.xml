@@ -4,16 +4,23 @@
         <remote name="ping2109"
                 fetch="https://github.com" />
 
-        <!-- Sync trees -->
-        <project path="device/xiaomi/rova" name="ping2109/android_device_xiaomi_rova" remote="ping2109" revision="lineage-18.1" />
-        <project path="device/xiaomi/msm8937-common" name="ping2109/android_device_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
-        <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
-        <project path="vendor/xiaomi/rova" name="ping2109/proprietary_vendor_xiaomi_rova" remote="ping2109" revision="lineage-18.1" />
-        <project path="vendor/xiaomi/msm8937-common" name="ping2109/proprietary_vendor_xiaomi_msm8937-common" remote="ping2109" revision="lineage-18.1" />
+        <!-- Sync device trees -->
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex_ded" remote="ping2109" revision="banana" />
+      
+        <!-- Sync vendor trees -->
+        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="ping2109" revision="r" />
+       
+        <!-- Sync kernel trees -->
+        <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="a11" />
+        
+         <!-- Remove r Hals -->
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_audio" />
 
-        <!-- Clone Hals -->
-        <project path="hardware/qcom-caf/msm8996/media" name="adi153/platform_hardware_qcom-caf_media" groups="qcom,pdk-qcom" remote="ping2109" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="adi153/platform_hardware_qcom-caf_audio" groups="qcom,qcom_audio,pdk-qcom" remote="ping2109" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/display" name="adi153/platform_hardware_qcom-caf_display" groups="qcom,pdk-qcom,qcom_display" remote="ping2109" revision="10" />
+        <!-- Clone r Hals -->
+        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="ping2109" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="ping2109" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="ping2109" revision="eleven" />
 
 </manifest>
