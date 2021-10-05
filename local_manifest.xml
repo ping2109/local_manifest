@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
         <remote name="ping2109"
                 fetch="https://github.com" />
-
-        <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova_caf" remote="ping2109" revision="main" />
+        <!-- Sync device trees -->
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="ping2109" revision="a11" />
       
-        <!-- vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="ping2109" revision="p404-rippa" />
+        <!-- Sync vendor trees -->
+        <project path="vendor/xiaomi/rolex" name="Thagoo/android_vendor_xiaomi_rolex" remote="ping2109" revision="r" />
        
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
 
+         <!-- Remove r Hals -->
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_audio" />
+
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="ping2109" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="ping2109" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="ping2109" revision="eleven" />
-
-        <!-- modul -->
-        <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="ping2109" revision="ruby" />
-        
 </manifest>
