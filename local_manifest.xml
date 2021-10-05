@@ -5,10 +5,10 @@
                 fetch="https://github.com" />
 
         <!-- device tree -->
-        <project path="device/xiaomi/rolex" name="device_xiaomi_rova_caf" remote="ping2109" revision="main" />
+        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rova_caf" remote="ping2109" revision="main" />
       
         <!-- vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="vendor_xiaomi_rova" remote="ping2109" revision="p404-rippa" />
+        <project path="vendor/xiaomi/rolex" name="veshrao/vendor_xiaomi_rova" remote="ping2109" revision="p404-rippa" />
        
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
