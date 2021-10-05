@@ -17,7 +17,7 @@
         <remove-project name="android_hardware_qcom_audio" />
 
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="veshrao" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="ping2109" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="ping2109" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="ping2109" revision="eleven" />
 </manifest>
