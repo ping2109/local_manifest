@@ -3,7 +3,7 @@
   
     <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="AbrarNoob/device_xiaomi_lavender-S" remote="github" revision="evox" />
+  <project path="device/xiaomi/lavender" name="ping2109/android_device_xiaomi_lavender" remote="github" revision="twelve" />
   <project path="vendor/xiaomi/lavender" name="AbrarNoob/android_vendor_xiaomi_lavender-S" remote="github" revision="evo" />
   <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
 
