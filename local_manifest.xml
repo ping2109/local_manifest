@@ -3,21 +3,14 @@
         <remote name="ping2109"
                 fetch="https://github.com" />
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="veshrao/device_xiaomi_rolex" remote="ping2109" revision="a11" />
-      
+        <project path="device/samsung/j7xelte" name="samsungexynos7870/android_device_samsung_j7xelte" remote="ping2109" revision="crdroid" />
+        <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_universal7870-common" remote="ping2109" revision="crdroid" />
+
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="Thagoo/android_vendor_xiaomi_rolex" remote="ping2109" revision="r" />
-       
+        <project path="vendor/samsung/j7xelte" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="ping2109" revision="common" />
+        <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="ping2109" revision="crdroid" />
+
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ping2109/android_kernel_xiaomi_msm8937" remote="ping2109" revision="11" />
+        <project path="kernel/samsung/j7xelte" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="ping2109" revision="simple_q_permissive" />
 
-         <!-- Remove r Hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
-
-        <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="veshrao/hardware_qcom-caf_msm8996-r_display" remote="ping2109" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/media" name="veshrao/hardware_qcom-caf_msm8996-r_media" remote="ping2109" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="veshrao/hardware_qcom-caf_msm8996_audio" remote="ping2109" revision="eleven" />
 </manifest>
