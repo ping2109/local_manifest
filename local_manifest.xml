@@ -11,6 +11,6 @@
         <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="ping2109" revision="crdroid" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/samsung/j7xelte" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="ping2109" revision="simple_q_permissive" />
+        <project path="kernel/samsung/j7xelte" name="ping2109/nevakernel-7870" remote="ping2109" revision="main" />
 
 </manifest>
