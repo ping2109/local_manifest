@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-    <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="AbrarNoob/device_xiaomi_lavender-S" remote="github" revision="evox" />
-  <project path="vendor/xiaomi/lavender" name="AbrarNoob/android_vendor_xiaomi_lavender-S" remote="github" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
+  <remote name="ArkanMuhammad1986"
+          fetch="https://github.com/ArkanMuhammad1986" />
 
-    <!-- Replacements -->
-  
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="AbrarNoob/android_hardware_qcom_display" remote="github" revision="12"/>
-  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="AbrarNoob/android_hardware_qcom_media" remote="github" revision="12"/>
+  <remote name="Redmi-note-4x"
+          fetch="https://github.com/Redmi-note-4x" />
 
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="AbrarNoob/android_hardware_qcom_audio" remote="github" revision="12"/>
-
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AbrarNoob/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arrow-12.0"/>
+  <!-- Trees -->
+        <project path="device/xiaomi/mido" name="xiaomi_mido" remote="ArkanMuhammad1986" revision="cherish" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-1" />
 
 </manifest>
