@@ -3,6 +3,7 @@
 
   <remote name="penk"
           fetch="https://github.com/ping2109" />
+ 
 
   <remote name="Redmi-note-4x"
           fetch="https://github.com/Redmi-note-4x" />
@@ -10,6 +11,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="penk" revision="cherish" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="penk" revision="neva" />
+        <!-- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="penk" revision="neva" /> -->
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="github" revision="lineage-17.1" />
 
 </manifest>
