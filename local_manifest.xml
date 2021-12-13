@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ArkanMuhammad1986"
-          fetch="https://github.com/ArkanMuhammad1986" />
+  <remote name="penk"
+          fetch="https://github.com/ping2109" />
 
   <remote name="Redmi-note-4x"
           fetch="https://github.com/Redmi-note-4x" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="xiaomi_mido" remote="ArkanMuhammad1986" revision="cherish" />
+        <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="ping2109" revision="cherish" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Redmi-note-4x" revision="aex-12" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="patch-1" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ping2109" revision="neva" />
 
 </manifest>
