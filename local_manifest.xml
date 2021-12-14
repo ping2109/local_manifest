@@ -14,4 +14,9 @@
         <!-- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="github" revision="lineage-17.1" /> -->
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="penk" revision="neva" />
   
+   <remove-project name="android_vendor_qcom_opensource_display-commonsys"/>
+        <project path="vendor/qcom/opensource/commonsys/display" name="ArrowOS/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="arrow-12.0"/>
+   <remove-project name="android_device_qcom_sepolicy_vndr"/>
+        <project path="device/qcom/sepolicy_vndr" name="ArrowOS/android_device_qcom_sepolicy_vndr" remote="github" revision="arrow-12.0"/>
+  
 </manifest>
