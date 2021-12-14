@@ -3,7 +3,9 @@
 
   <remote name="penk"
           fetch="https://github.com/ping2109" />
- 
+
+  <remote name="github"
+          fetch="https://github.com/" />
 
   <remote name="Redmi-note-4x"
           fetch="https://github.com/Redmi-note-4x" />
