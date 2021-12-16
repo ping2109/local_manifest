@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="github"
-                fetch="https://github.com" />
+        <remote name="7870"
+                fetch="https://github.com/samsungexynos7870/" />
         <remote name="ping2109"
                 fetch="https://github.com/ping2109/" />
         
         <!-- Sync device trees -->
-        <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_universal7870-common" remote="github" revision="crdroid" />
-        <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_j7xelte" remote="github" revision="crdroid" />
+        <project path="device/samsung/universal7870-common" name="android_device_samsung_universal7870-common" remote="7870" revision="crdroid" />
+        <project path="device/samsung/universal7870-common" name="android_device_samsung_j7xelte" remote="7870" revision="crdroid" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="crdroid" />
-        <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="github" revision="common" />
+        <project path="vendor/samsung/universal7870-common" name="android_vendor_samsung_universal7870-common" remote="7870" revision="crdroid" />
+        <project path="vendor/samsung/universal7870-common" name="android_vendor_samsung_j7xelte" remote="7870" revision="common" />
 
         <!-- Sync kernel trees -->
         <project path="kernel/samsung/universal7870-common" name="nevakernel-7870" remote="ping2109" revision="main" />
