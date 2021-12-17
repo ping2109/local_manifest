@@ -14,4 +14,17 @@
         <!-- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="github" revision="lineage-17.1" /> -->
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="penk" revision="normal" />
 
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+
+        <remove-project name="android_hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="aex-tmp" revision="12.x" />
+        <remove-project name="vendor_evolution" />
+        <project path="vendor/evolution" name="vendor_evolution" remote="I" revision="snow" />
+        <remove-project name="packages_resources_devicesettings" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lhos" revision="lineage-18.1" />
+        <remove-project name="platform/system/bt" />
+        <project path="system/bt" name="system_bt" remote="I" revision="A12" />
+
 </manifest>
