@@ -17,6 +17,7 @@
         <!-- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_msm8953-4.9" remote="github" revision="lineage-17.1" /> -->
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="penk" revision="normal" />
 
+  <!--
         <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
@@ -29,5 +30,5 @@
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
         <remove-project name="platform/system/bt" />
         <project path="system/bt" name="RasyidAlKautsar/system_bt" remote="github" revision="A12" />
-
+-->
 </manifest>
