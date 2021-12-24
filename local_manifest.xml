@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <!-- Removals -->
- <remove-project name="hardware_qcom-caf_sdm845_media" />
-  
  <!-- Trees -->
   
  <!-- Device Tree -->
