@@ -4,7 +4,7 @@
  <!-- Trees -->
   
  <!-- Device Tree -->
- <project path="device/xiaomi/beryllium" name="ping2109/xiaomi_beryllium" remote="github" revision="cherish" />
+ <project path="device/xiaomi/beryllium" name="ping2109/xiaomi_beryllium" remote="github" revision="octavi" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" name="XtremeOrnob/xiaomi_sdm845-common" remote="github" revision="aosp-12" />
  <!-- Vendor Tree -->
