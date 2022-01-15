@@ -4,17 +4,17 @@
  <!-- Trees -->
   
  <!-- Device Tree -->
- <project path="device/xiaomi/beryllium" name="ping2109/device_xiaomi_beryllium" remote="github" revision="cherish" />
+ <project path="device/xiaomi/davinci" name="ping2109/android_device_xiaomi_davinci" remote="github" revision="lineage-19.0" />
  <!-- Common Tree -->
- <project path="device/xiaomi/sdm845-common" name="XtremeOrnob/xiaomi_sdm845-common" remote="github" revision="aosp-12" />
+ <project path="device/xiaomi/sm6150-common" name="sm6150-dev/android_device_xiaomi_sm6150-common" remote="github" revision="lineage-19.0" />
  <!-- Vendor Tree -->
- <project path="vendor/xiaomi" name="XtremeOrnob/vendor_xiaomi" remote="github" revision="aosp-12" />
+ <project path="vendor/xiaomi" name="xiaomi-sm6150/android_vendor_xiaomi" remote="github" revision="lineage-19.0" />
  <!-- Kernel Tree -->
- <project path="kernel/xiaomi/sdm845" name="PainKiller3/kernel_xiaomi_sdm845" remote="github" revision="twelve" />
+ <project path="kernel/xiaomi/sm6150" name="sm6150-dev/android_kernel_xiaomi_sm6150" remote="github" revision="lineage-19.0" />
  <!--
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
  <project path="hardware/qcom-caf/sdm845/media" name="resist15/hardware_qcom-caf_sdm845_media" remote="github" revision="r" clone-depth="1" />
- -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+ -->
 </manifest>
