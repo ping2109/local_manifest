@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Trees -->
+  <project path="device/samsung/i9100" name="rINanDO/android_device_samsung_i9100" remote="github" revision="lineage-19.0" />
+  <project path="device/samsung/galaxys2-common" name="rINanDO/android_device_samsung_galaxys2-common" remote="github" revision="lineage-19.0" />
+  <project path="kernel/samsung/smdk4412" name="rINanDO/android_kernel_samsung_smdk4412" remote="github" revision="lineage-19.0" /> 
+  <project path="hardware/samsung" name="rINanDO/android_hardware_samsung" remote="github" revision="lineage-19.0" /> 
   
-    <!-- Trees -->
-
-  <project path="device/xiaomi/lavender" name="AbrarNoob/device_xiaomi_lavender-S" remote="github" revision="evox" />
-  <project path="vendor/xiaomi/lavender" name="AbrarNoob/android_vendor_xiaomi_lavender-S" remote="github" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
-
-    <!-- Replacements -->
-  
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="AbrarNoob/android_hardware_qcom_display" remote="github" revision="12"/>
-  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="AbrarNoob/android_hardware_qcom_media" remote="github" revision="12"/>
-
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="AbrarNoob/android_hardware_qcom_audio" remote="github" revision="12"/>
-
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AbrarNoob/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arrow-12.0"/>
-
 </manifest>
