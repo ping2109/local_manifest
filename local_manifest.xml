@@ -5,7 +5,7 @@
 
   <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_universal7870-common" remote="github" revision="lineage-17.1" />
   <project path="device/samsung/j7xelte" name="samsungexynos7870/android_device_samsung_j7xelte" remote="github" revision="crdroid" />
-  <project path="kernel/samsung/exynos7870" name="ping2109/NevaKernel-7870" remote="github" revision="main" />
+  <project path="kernel/samsung/exynos7870" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="github" revision="aosp" />
   <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="common" />
   <project path="vendor/samsung/j7xelte" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="github" revision="common" />
   <project path="hardware/samsung" name="samsungexynos7870/android_hardware_samsung" remote="github" revision="lineage-17.1" />
