@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-    <!-- Trees -->
 
-  <project path="device/samsung/universal7870-common" name="samsungexynos7870/android_device_samsung_universal7870-common" remote="github" revision="lineage-17.1" />
-  <project path="device/samsung/j7xelte" name="samsungexynos7870/android_device_samsung_j7xelte" remote="github" revision="crdroid" />
-  <project path="kernel/samsung/exynos7870" name="samsungexynos7870/android_kernel_samsung_exynos7870" remote="github" revision="aosp" />
-  <project path="vendor/samsung/universal7870-common" name="samsungexynos7870/android_vendor_samsung_universal7870-common" remote="github" revision="common" />
-  <project path="vendor/samsung/j7xelte" name="samsungexynos7870/android_vendor_samsung_j7xelte" remote="github" revision="common" />
-  <project path="hardware/samsung" name="samsungexynos7870/android_hardware_samsung" remote="github" revision="lineage-17.1" />
+    <remote name="anht"
+          fetch="https://github.com/anht3889" />
+  
+    <!-- Common stuff -->
+    <project path="device/lge/sm8150-common" name="android_device_lge_sm8150-common.git" remote="anht" revision="aosp" />
+    <project path="device/lge/flash-common" name="android_device_lge_flash-common.git" remote="anht" revision="aosp" />
+    <project path="device/lge/common" name="android_device_lge_common.git" remote="anht" revision="aosp" />
+    <project path="vendor/lge" name="proprietary_vendor_lge.git" remote="anht" revision="aosp" />
+  
+    <!-- Device specific stuff -->
+    <project path="device/lge/flashlmdd" name="ping2109/android_device_lge_flashlmdd.git" remote="github" revision="cherish" />
+  
+    <!-- Kernel -->
+    <project path="kernel/lge/sm8150" name="android_kernel_lge_sm8150_new.git" remote="anht" revision="aosp" />
+    
+    <!-- Hardware -->
+    <project path="hardware/lge" name="android_hardware_lge.git" remote="anht" revision="aosp" />
 
 </manifest>
