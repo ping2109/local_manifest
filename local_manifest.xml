@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-    <remote name="lab"
-          fetch="https://gitlab.com" />
+   <!-- <remote name="lab"
+          fetch="https://gitlab.com" /> -->
   
   <!-- Trees -->
   <project path="device/xiaomi/spes" name="ping2109/device_xiaomi_spes" remote="github" revision="cherish" />
   <project path="kernel/xiaomi/spes" name="boedhack99/kernel_xiaomi_spes" remote="github" revision="12" />
-  <project path="vendor/xiaomi/spes" name="boedhack99/vendor_xiaomi_spes" remote="lab" />
+  <project path="vendor/xiaomi/spes" name="ping2109/vendor_xiaomi_spes" remote="github" revision="12" />
 
 </manifest>
