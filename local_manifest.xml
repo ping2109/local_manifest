@@ -2,7 +2,7 @@
 <manifest>
   
     <remote name="lab"
-          fetch="https://gitlab.com/" />
+          fetch="https://gitlab.com" />
   
   <!-- Trees -->
   <project path="device/xiaomi/spes" name="ping2109/device_xiaomi_spes" remote="github" revision="cherish" />
