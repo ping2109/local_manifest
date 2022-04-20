@@ -3,22 +3,8 @@
   
     <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="AbrarNoob/device_xiaomi_lavender-S" remote="github" revision="evox" />
-  <project path="vendor/xiaomi/lavender" name="AbrarNoob/android_vendor_xiaomi_lavender-S" remote="github" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
-
-    <!-- Replacements -->
-  
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="AbrarNoob/android_hardware_qcom_display" remote="github" revision="12"/>
-  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="AbrarNoob/android_hardware_qcom_media" remote="github" revision="12"/>
-
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="AbrarNoob/android_hardware_qcom_audio" remote="github" revision="12"/>
-
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AbrarNoob/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arrow-12.0"/>
+  <project path="device/xiaomi/spes" name="ping2109/device_xiaomi_spes" remote="github" revision="cherish" />
+  <project path="vendor/xiaomi/spes" name="boedhack99/kernel_xiaomi_spes" remote="github" revision="12" />
+  <project path="kernel/xiaomi/spes" name="boedhack99/vendor_xiaomi_spes" remote="github" revision="12" />
 
 </manifest>
