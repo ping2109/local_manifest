@@ -4,7 +4,6 @@
   <!-- Trees -->
   <project path="device/xiaomi/spes" name="ping2109/device_xiaomi_spes" remote="github" revision="cherish" />
   <project path="vendor/xiaomi/spes" name="boedhack99/kernel_xiaomi_spes" remote="github" revision="12" />
-  
-  <!-- Vendor is in temp repo -->
+  <project path="kernel/xiaomi/spes" name="ping2109/vendor_xiaomi_spes" remote="github" revision="12" />
 
 </manifest>
