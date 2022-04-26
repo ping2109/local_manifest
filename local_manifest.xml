@@ -2,11 +2,9 @@
 <manifest>
 
     <!-- Common stuff -->
-    <project path="device/lge/sm8150-common" name="anht3889/android_device_lge_sm8150-common.git" remote="github" revision="aosp" />
-    <project path="device/lge/flash-common" name="anht3889/android_device_lge_flash-common.git" remote="github" revision="aosp" />
-    <project path="device/lge/common" name="anht3889/android_device_lge_common.git" remote="github" revision="aosp" />
+    <project path="device/lge" name="ping2109/android_device_lge.git" remote="github" revision="main" />
     <project path="vendor/lge" name="anht3889/proprietary_vendor_lge.git" remote="github" revision="aosp" />
-  
+
     <!-- Device specific stuff -->
     <project path="device/lge/flashlmdd" name="ping2109/android_device_lge_flashlmdd.git" remote="github" revision="cherish" />
   
