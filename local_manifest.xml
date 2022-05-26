@@ -19,7 +19,7 @@
   <project path="device/xiaomi/prada"           name="android_device_xiaomi_prada"           groups="device" remote="mi-msm8937"/>
   <project path="device/xiaomi/riva"            name="android_device_xiaomi_riva"            groups="device" remote="mi-msm8937"/>
   <project path="device/xiaomi/rolex"           name="android_device_xiaomi_rolex"           groups="device" remote="mi-msm8937"/>
-  <project path="device/xiaomi/rova"            name="android_device_xiaomi_rova"            groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/rova"            name="ping2109/android_device_xiaomi_rova"   groups="device" remote="github"/>
   <project path="device/xiaomi/santoni"         name="android_device_xiaomi_santoni"         groups="device" remote="mi-msm8937"/>
   <project path="device/xiaomi/tiare"           name="android_device_xiaomi_tiare"           groups="device" remote="mi-msm8937"/>
   <project path="device/xiaomi/ulysse"          name="android_device_xiaomi_ulysse"          groups="device" remote="mi-msm8937"/>
