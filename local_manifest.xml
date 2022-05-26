@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-    <!-- Trees -->
+  <remote  name="mi-msm8937"
+           fetch="https://github.com/mi-msm8937"
+           revision="lineage-18.1" />
 
-  <project path="device/xiaomi/msm8937-common" name="mi-msm8937/android_device_xiaomi_msm8937-common" remote="github" revision="lineage-18.1" />
-  <project path="device/xiaomi/rova-common" name="mi-msm8937/android_device_xiaomi_rova-common" remote="github" revision="lineage-18.1" />
-  <project path="vendor/xiaomi/msm8937-common" name="mi-msm8937/proprietary_vendor_xiaomi_msm8937-common" remote="github" revision="lineage-18.1" />
-  <project path="vendor/xiaomi/rova-common" name="mi-msm8937/proprietary_vendor_xiaomi_rova-common" remote="github" revision="lineage-18.1" />
-  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
+  <remote  name="mi-msm8937_vendor"
+           fetch="https://github.com/mi-msm8937"
+           revision="lineage-18.1" />
 
+ <!-- Kernels -->
+  <project path="kernel/xiaomi/msm8937" remote="mi-msm8937" name="android_kernel_xiaomi_msm8937" revision="a12/master"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/msm8937-common"  name="android_device_xiaomi_msm8937-common"  groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/landtoni-common" name="android_device_xiaomi_landtoni-common" groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/rova-common"     name="android_device_xiaomi_rova-common"     groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/land"            name="android_device_xiaomi_land"            groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/prada"           name="android_device_xiaomi_prada"           groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/riva"            name="android_device_xiaomi_riva"            groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/rolex"           name="android_device_xiaomi_rolex"           groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/rova"            name="android_device_xiaomi_rova"            groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/santoni"         name="android_device_xiaomi_santoni"         groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/tiare"           name="android_device_xiaomi_tiare"           groups="device" remote="mi-msm8937"/>
+  <project path="device/xiaomi/ulysse"          name="android_device_xiaomi_ulysse"          groups="device" remote="mi-msm8937"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/msm8937-common"  name="proprietary_vendor_xiaomi_msm8937-common"  groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/landtoni-common" name="proprietary_vendor_xiaomi_landtoni-common" groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/rova-common"     name="proprietary_vendor_xiaomi_rova-common"     groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/land"            name="proprietary_vendor_xiaomi_land"            groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/prada"           name="proprietary_vendor_xiaomi_prada"           groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/riva"            name="proprietary_vendor_xiaomi_riva"            groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/rolex"           name="proprietary_vendor_xiaomi_rolex"           groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/rova"            name="proprietary_vendor_xiaomi_rova"            groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/santoni"         name="proprietary_vendor_xiaomi_santoni"         groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/tiare"           name="proprietary_vendor_xiaomi_tiare"           groups="device" remote="mi-msm8937_vendor"/>
+  <project path="vendor/xiaomi/ulysse"          name="proprietary_vendor_xiaomi_ulysse"          groups="device" remote="mi-msm8937_vendor"/>
 </manifest>
