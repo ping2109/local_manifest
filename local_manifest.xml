@@ -2,7 +2,7 @@
 <manifest>
   
   <!-- device specific stuff -->
-  <project path="device/xiaomi/spes" name="ping2109/android_device_xiaomi_spes" remote="github" revision="proton"/>
+  <project path="device/xiaomi/spes" name="ping2109/android_device_xiaomi_spes" remote="github" revision="awaken"/>
   <project path="vendor/xiaomi/spes" name="Jabiyeff/android_vendor_xiaomi_spes" remote="github" revision="12.1"/>
   <project path="kernel/xiaomi/spes" name="Jabiyeff/kernel_xiaomi_spes_header" remote="github" revision="12"  clone-depth="1"/>
     
