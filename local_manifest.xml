@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-    <!-- Trees -->
-
-  <project path="device/xiaomi/lavender" name="AbrarNoob/device_xiaomi_lavender-S" remote="github" revision="evox" />
-  <project path="vendor/xiaomi/lavender" name="AbrarNoob/android_vendor_xiaomi_lavender-S" remote="github" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="stormbreaker-project/kernel_xiaomi_lavender/" remote="github" revision="oldcam-eas" />
+    <!-- Trees -->  
+  <project path="device/samsung/a505f" name="ping2109/android_device_samsung_a505f" remote="github" revision="cherish" />
+  <project path="vendor/samsung/a505f" name="Galaxya50/android_vendor_samsung_a505f" remote="github" revision="android-12.0" />
+  <project path="kernel/samsung/a505f" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
+  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="android-12.0" />
+  <project path="vendor/samsung/a50-common" name="Galaxya50/android_vendor_samsung_a50-common" remote="github" revision="android-12.0" />
+  <project path="kernel/samsung/a50-common" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
 
     <!-- Replacements -->
+  <remove-project name="android_hardware_samsung"/>
+  <project path="hardware/samsung" name="Galaxya50/android_hardware_samsung" remote="github" revision="android-12.0"/>
   
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="AbrarNoob/android_hardware_qcom_display" remote="github" revision="12"/>
-  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="AbrarNoob/android_hardware_qcom_media" remote="github" revision="12"/>
+  <remove-project name="android_hardware_samsung_slsi_libbt"/>
+  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-19.1"/>
 
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="AbrarNoob/android_hardware_qcom_audio" remote="github" revision="12"/>
+  <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-19.1"/>
 
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AbrarNoob/android_device_qcom_sepolicy-legacy-um" remote="github" revision="arrow-12.0"/>
+  <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" />
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-19.1"/>
+
+  <remove-project name="android_device_samsung_slsi_sepolicy"/>
+  <project path="hardware/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-19.1"/>
 
 </manifest>
