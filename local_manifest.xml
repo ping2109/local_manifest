@@ -5,7 +5,7 @@
   <project path="device/samsung/a505f" name="ping2109/android_device_samsung_a505f" remote="github" revision="cherish" />
   <project path="vendor/samsung/a505f" name="Galaxya50/android_vendor_samsung_a505f" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a505f" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
-  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="android-12.0" />
+  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="cherish" />
   <project path="vendor/samsung/a50-common" name="Galaxya50/android_vendor_samsung_a50-common" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a50-common" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
 
