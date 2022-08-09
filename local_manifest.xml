@@ -10,19 +10,16 @@
   <project path="kernel/samsung/a50-common" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
 
     <!-- Replacements 
-  <remove-project name="android_hardware_samsung"/> -->
-  <project path="hardware/samsung" name="Galaxya50/android_hardware_samsung" remote="github" revision="android-12.0"/>
-  
+  <remove-project name="android_hardware_samsung"/> 
   <remove-project name="android_hardware_samsung_slsi_libbt"/>
-  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-19.1"/>
-
   <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"/>
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-19.1"/>
-
   <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" />
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-19.1"/>
-
   <remove-project name="android_device_samsung_slsi_sepolicy"/>
+-->
+  <project path="hardware/samsung" name="Galaxya50/android_hardware_samsung" remote="github" revision="android-12.0"/>
+  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-19.1"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-19.1"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-19.1"/>
 
 </manifest>
