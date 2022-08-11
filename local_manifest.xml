@@ -2,20 +2,15 @@
 <manifest>
   
     <!-- Trees -->  
-  <project path="device/samsung/a505f" name="ping2109/android_device_samsung_a505f" remote="github" revision="cherish" />
+  <project path="device/samsung/a505f" name="ping2109/android_device_samsung_a505f" remote="github" revision="evox" />
   <project path="vendor/samsung/a505f" name="Galaxya50/android_vendor_samsung_a505f" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a50" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
-  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="cherish" />
+  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="evox" />
   <project path="vendor/samsung/a50-common" name="Galaxya50/android_vendor_samsung_a50-common" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a50-common" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
 
-    <!-- Replacements 
-  <remove-project name="android_hardware_samsung"/> 
-  <remove-project name="android_hardware_samsung_slsi_libbt"/>
-  <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"/>
-  <remove-project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" />
-  <remove-project name="android_device_samsung_slsi_sepolicy"/>
--->
+    <!-- Replacements -->
+  <remove-project name="hardware/samsung"/> 
   <project path="hardware/samsung" name="Galaxya50/android_hardware_samsung" remote="github" revision="android-12.0"/>
   <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-19.1"/>
