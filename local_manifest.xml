@@ -20,8 +20,6 @@
     <!-- Some ROM component change -->
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="ping2109/evolution_frameworks_base" remote="github" />
-  <remove-project name="platform/system/security" />
-  <project path="system/security" name="ping2109/evolution_system_security" remote="github" />
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="ping2109/evolution_hardware_interfaces" remote="github" />
   <remove-project name="platform/system/bt" />
