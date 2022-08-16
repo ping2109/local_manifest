@@ -18,11 +18,11 @@
   <project path="hardware/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-19.1"/>
   
     <!-- Some ROM component change -->
-  <remove-project name="platform/frameworks/base" />
+  <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="ping2109/evolution_frameworks_base" remote="github" />
-  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="hardware_interfaces" />
   <project path="hardware/interfaces" name="ping2109/evolution_hardware_interfaces" remote="github" />
-  <remove-project name="platform/system/bt" />
+  <remove-project name="system_bt" />
   <project path="system/bt" name="ping2109/evolution_system_bt" remote="github" />
 
 </manifest>
