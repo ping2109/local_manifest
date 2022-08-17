@@ -17,12 +17,10 @@
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-19.1"/>
   
-    <!-- Some ROM component change 
-  <remove-project name="frameworks_base" />
+    <!-- Some ROM component change -->
+  <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="ping2109/evolution_frameworks_base" remote="github" revision="snow"/>
-  <remove-project name="hardware_interfaces" />
+  <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="ping2109/evolution_hardware_interfaces" remote="github" revision="snow"/>
-  <remove-project name="system_bt" />
-  <project path="system/bt" name="ping2109/evolution_system_bt" remote="github" revision="snow"/> -->
 
 </manifest>
