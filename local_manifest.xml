@@ -5,22 +5,16 @@
   <project path="device/samsung/a505f" name="ping2109/android_device_samsung_a505f" remote="github" revision="evox" />
   <project path="vendor/samsung/a505f" name="Galaxya50/android_vendor_samsung_a505f" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a50" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
-  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="evox" />
+  <project path="device/samsung/a50-common" name="ping2109/android_device_samsung_a50-common" remote="github" revision="evox-13" />
   <project path="vendor/samsung/a50-common" name="Galaxya50/android_vendor_samsung_a50-common" remote="github" revision="android-12.0" />
   <project path="kernel/samsung/a50-common" name="Galaxya50/android_kernel_samsung_a50-common" remote="github" revision="android-12.0" />
 
     <!-- Replacements -->
   <remove-project name="platform/hardware/samsung/nfc"/> 
-  <project path="hardware/samsung" name="Galaxya50/android_hardware_samsung" remote="github" revision="android-12.0"/>
+  <project path="hardware/samsung" name="ping2109/android_hardware_samsung" remote="github" revision="android-13.0"/>
   <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="github" revision="lineage-19.1"/>
   <project path="hardware/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" remote="github" revision="lineage-19.1"/>
-  
-    <!-- Some ROM component change -->
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="ping2109/evolution_frameworks_base" remote="github" revision="snow"/>
-  <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="ping2109/evolution_hardware_interfaces" remote="github" revision="snow"/>
 
 </manifest>
